@@ -1,4 +1,5 @@
-require_relative 'config/environment'
+require './config/environment'
+require 'sinatra/activerecord/rake'
 
 class App < Sinatra::Base
 end
